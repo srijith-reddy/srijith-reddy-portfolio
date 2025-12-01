@@ -1,20 +1,13 @@
 project:
   type: website
+  output-dir: docs   # remove if you want root
 
 website:
-  title: "Statistical Learning for Data Mining Project Portfolio"
+  title: "AI • ML • Data • Finance Project Portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: project1.qmd
-        text: Bias and Variance in Linear Regression
-      - href: project2.qmd
-        text: Ensemble Learning Techniques for Fair Classification
-      - href: project3.qmd
-        text: Forecasting Property Valuations in a Mid-Sized U.S. City: A SHAP-Gain Feature Selection and ElasticNet-Ensembled Approach with Optuna-Tuned XGBoost
-      - href: project4.qmd
-        text: End-to-End Quant Pipeline for Equity Alphas: SHAP-Pruned Features with ElasticNet Ensembles and Optuna-Tuned Gradient Boosting
 
 format:
   html:
