@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "Below is a curated lineup of my most impactful AI, ML, and data science projects. Each link takes you directly to the project’s GitHub repository or article.\n\n\n\nGitHub: https://github.com/srijith-reddy/M.I.R.A(Private Build)\nMedium Article: https://medium.com/@shrey.maramreddy/building-mira-my-voice-activated-multimodal-ai-assistant-from-scratch-604448979a1a\nA fully modular, voice-activated AI assistant with many autonomous agents (BrowserAgent, PlannerAgent, GmailAgent, CalendarAgent, WhatsAppAgent, MusicAgent).\nIncludes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async orchestration, and multimodal reasoning.\n\n\n\n\nWebsite link: https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/\nDeveloped as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons. Integrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns. The pipeline was later extended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements.\n\n\n\n\nWebsite link: https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/\n600k+ record real-estate dataset.\nFeature engineering + binning + XGBoost/LightGBM tuned with Optuna.\n\n\n\n\nGitHub: https://github.com/srijith-reddy/Elo-Based-Time-Series-Forecasting\nATP tennis forecasting dashboard using ARIMA auto-selection + surface-aware Elo system.\nForecasts 6–24 month player form and win probabilities.\n\n\n\n\nWebsite link: https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/\nFairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX fairness constraints.\nReduces TPR gaps across school tiers.\n\n\n\n\nWebsite link: https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/\nSimulated the performance of Ridge Regression vs OLS under both linear and nonlinear data-generating processes.\nDemonstrated the full bias–variance decomposition with clear visualizations showing when and why Ridge outperforms OLS, especially under high noise or multicollinearity.\n\n\n\n\nGitHub: https://github.com/srijith-reddy/Global-Safety-Regression-Model\nAnalyzing how GDP, internet access, population growth, refugees, and development metrics relate to homicide rates across 169 countries.\n\n\n\n\nGitHub: https://github.com/srijith-reddy/Multivariate-Stat-Methods\nMultivariate regression, MANOVA, PCA, and CCA on physical measurements to estimate body fat % and BMI.\n\n\n\n\nGitHub: https://github.com/srijith-reddy/msft-pinterest-valuation-analysis\nFull DCF, comps, and precedent analysis determining an implied acquisition price of $26.87/share.\nIncludes 30-page report + pitch deck."
+  },
+  {
+    "objectID": "index.html#mira-multimodal-ai-assistant",
+    "href": "index.html#mira-multimodal-ai-assistant",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "GitHub: https://github.com/srijith-reddy/M.I.R.A(Private Build)\nMedium Article: https://medium.com/@shrey.maramreddy/building-mira-my-voice-activated-multimodal-ai-assistant-from-scratch-604448979a1a\nA fully modular, voice-activated AI assistant with many autonomous agents (BrowserAgent, PlannerAgent, GmailAgent, CalendarAgent, WhatsAppAgent, MusicAgent).\nIncludes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async orchestration, and multimodal reasoning."
+  },
+  {
+    "objectID": "index.html#quant-research-pipeline-layered-workflow",
+    "href": "index.html#quant-research-pipeline-layered-workflow",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "Website link: https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/\nDeveloped as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons. Integrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns. The pipeline was later extended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements."
+  },
+  {
+    "objectID": "index.html#housing-price-prediction-1st-place-university-competition",
+    "href": "index.html#housing-price-prediction-1st-place-university-competition",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "Website link: https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/\n600k+ record real-estate dataset.\nFeature engineering + binning + XGBoost/LightGBM tuned with Optuna."
+  },
+  {
+    "objectID": "index.html#elo-based-time-series-forecasting",
+    "href": "index.html#elo-based-time-series-forecasting",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "GitHub: https://github.com/srijith-reddy/Elo-Based-Time-Series-Forecasting\nATP tennis forecasting dashboard using ARIMA auto-selection + surface-aware Elo system.\nForecasts 6–24 month player form and win probabilities."
+  },
+  {
+    "objectID": "index.html#fair-nba-draft-predictor-fairstacks-ensemble",
+    "href": "index.html#fair-nba-draft-predictor-fairstacks-ensemble",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "Website link: https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/\nFairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX fairness constraints.\nReduces TPR gaps across school tiers."
+  },
+  {
+    "objectID": "index.html#biasvariance-tradeoff-in-ridge-regression",
+    "href": "index.html#biasvariance-tradeoff-in-ridge-regression",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "Website link: https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/\nSimulated the performance of Ridge Regression vs OLS under both linear and nonlinear data-generating processes.\nDemonstrated the full bias–variance decomposition with clear visualizations showing when and why Ridge outperforms OLS, especially under high noise or multicollinearity."
+  },
+  {
+    "objectID": "index.html#global-safety-regression-model",
+    "href": "index.html#global-safety-regression-model",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "GitHub: https://github.com/srijith-reddy/Global-Safety-Regression-Model\nAnalyzing how GDP, internet access, population growth, refugees, and development metrics relate to homicide rates across 169 countries."
+  },
+  {
+    "objectID": "index.html#multivariate-body-fat-bmi-analysis",
+    "href": "index.html#multivariate-body-fat-bmi-analysis",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "GitHub: https://github.com/srijith-reddy/Multivariate-Stat-Methods\nMultivariate regression, MANOVA, PCA, and CCA on physical measurements to estimate body fat % and BMI."
+  },
+  {
+    "objectID": "index.html#microsoft-pinterest-valuation-imperial-college-project",
+    "href": "index.html#microsoft-pinterest-valuation-imperial-college-project",
+    "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
+    "section": "",
+    "text": "GitHub: https://github.com/srijith-reddy/msft-pinterest-valuation-analysis\nFull DCF, comps, and precedent analysis determining an implied acquisition price of $26.87/share.\nIncludes 30-page report + pitch deck."
+  }
+]
