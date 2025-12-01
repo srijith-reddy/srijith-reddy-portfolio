@@ -13,31 +13,33 @@ Each link takes you directly to the project's GitHub repository or article.
 ---
 
 ## 🧠 MIRA — Multimodal AI Assistant  
-**GitHub:** https://github.com/srijith-reddy/M.I.R.A(Private Build)  
-**Medium Article:** https://medium.com/@shrey.maramreddy/building-mira-my-voice-activated-multimodal-ai-assistant-from-scratch-604448979a1a
+**GitHub:** [Private Build](https://github.com/srijith-reddy/M.I.R.A)  
+**Medium Article:** [Building MIRA](https://medium.com/@shrey.maramreddy/building-mira-my-voice-activated-multimodal-ai-assistant-from-scratch-604448979a1a)
 
 A fully modular, voice-activated AI assistant with many autonomous agents (BrowserAgent, PlannerAgent, GmailAgent, CalendarAgent, WhatsAppAgent, MusicAgent).  
 Includes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async orchestration, and multimodal reasoning.
 
 ---
 
-## 📊 Quant Research Pipeline (Layered Workflow)  
-**Website link:** https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/
+## 📊 End-to-End Quant Alpha Pipeline (Layered Workflow)  
+**Website:** [Statistical Learning Projects](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
 
-Developed as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons. Integrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns. The pipeline was later extended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements.
+Developed as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons.  
+Integrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns.  
+Extended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements.
 
 ---
 
-## 🏠 Housing Price Prediction (1st Place – University Competition)  
-**Website link:** https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/ 
+## 🏠 Housing Price Prediction *(1st Place — University Competition)*  
+**Website:** [Project Link](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
 
 600k+ record real-estate dataset.  
-Feature engineering + binning + XGBoost/LightGBM tuned with Optuna.  
+Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.
 
 ---
 
 ## 🎾 Elo-Based Time Series Forecasting  
-**GitHub:** https://github.com/srijith-reddy/Elo-Based-Time-Series-Forecasting 
+**GitHub:** [Elo Forecasting Repo](https://github.com/srijith-reddy/Elo-Based-Time-Series-Forecasting)
 
 ATP tennis forecasting dashboard using ARIMA auto-selection + surface-aware Elo system.  
 Forecasts 6–24 month player form and win probabilities.
@@ -45,44 +47,44 @@ Forecasts 6–24 month player form and win probabilities.
 ---
 
 ## 🏀 Fair NBA Draft Predictor — FairStacks Ensemble  
-**Website link:** https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/ 
+**Website:** [FairNBA Project](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
 
-Fairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX fairness constraints.  
+Fairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX-based fairness constraints.  
 Reduces TPR gaps across school tiers.
 
 ---
 
 ## 📉 Bias–Variance Tradeoff in Ridge Regression  
-**Website link:** https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/ 
+**Website:** [Project Link](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
 
-Simulated the performance of Ridge Regression vs OLS under both linear and nonlinear data-generating processes.  
-Demonstrated the full bias–variance decomposition with clear visualizations showing when and why Ridge outperforms OLS, especially under high noise or multicollinearity.
+Simulated Ridge Regression vs OLS under linear and nonlinear DGPs.  
+Demonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS.
 
 ---
 
 ## 📊 Global Safety Regression Model  
-**GitHub:** https://github.com/srijith-reddy/Global-Safety-Regression-Model 
+**GitHub:** [Global Safety Regression Repo](https://github.com/srijith-reddy/Global-Safety-Regression-Model)
 
 Analyzing how GDP, internet access, population growth, refugees, and development metrics relate to homicide rates across 169 countries.
 
 ---
 
 ## 📏 Multivariate Body Fat & BMI Analysis  
-**GitHub:** https://github.com/srijith-reddy/Multivariate-Stat-Methods
+**GitHub:** [Multivariate Stats Repo](https://github.com/srijith-reddy/Multivariate-Stat-Methods)
 
 Multivariate regression, MANOVA, PCA, and CCA on physical measurements to estimate body fat % and BMI.
 
 ---
 
 ## 💼 Microsoft × Pinterest Valuation (Imperial College Project)  
-**GitHub:** https://github.com/srijith-reddy/msft-pinterest-valuation-analysis 
+**GitHub:** [Valuation Analysis Repo](https://github.com/srijith-reddy/msft-pinterest-valuation-analysis)
 
 Full DCF, comps, and precedent analysis determining an implied acquisition price of **$26.87/share**.  
-Includes 30-page report + pitch deck.
+Includes a 30-page report and pitch deck.
 
 ---
 
 # 📬 Contact
 
-**GitHub:** https://github.com/srijith-reddy  
-**LinkedIn:** www.linkedin.com/in/saisrijith-reddy-maramreddy-399869166 
+**GitHub:** [github.com/srijith-reddy](https://github.com/srijith-reddy)  
+**LinkedIn:** [linkedin.com/in/saisrijith-reddy-maramreddy-399869166](https://www.linkedin.com/in/saisrijith-reddy-maramreddy-399869166/)
