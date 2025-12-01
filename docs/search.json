@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
     "section": "",
-    "text": "Below is a curated lineup of my most impactful AI, ML, and data science projects. Each link takes you directly to the project’s GitHub repository or article.\n\n\n\nGitHub: Private Build\nMedium Article: Building MIRA\nA fully modular, voice-activated AI assistant with many autonomous agents (BrowserAgent, PlannerAgent, GmailAgent, CalendarAgent, WhatsAppAgent, MusicAgent).\nIncludes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async orchestration, and multimodal reasoning.\n\n\n\n\nWebsite: Statistical Learning Projects\nDeveloped as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons.\nIntegrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns.\nExtended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements.\n\n\n\n\nWebsite: Project Link\n600k+ record real-estate dataset.\nFeature engineering + binning + Optuna-optimized XGBoost/LightGBM.\n\n\n\n\nGitHub: Elo Forecasting Repo\nATP tennis forecasting dashboard using ARIMA auto-selection + surface-aware Elo system.\nForecasts 6–24 month player form and win probabilities.\n\n\n\n\nWebsite: FairNBA Project\nFairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX-based fairness constraints.\nReduces TPR gaps across school tiers.\n\n\n\n\nWebsite: Project Link\nSimulated Ridge Regression vs OLS under linear and nonlinear DGPs.\nDemonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS.\n\n\n\n\nGitHub: Global Safety Regression Repo\nAnalyzing how GDP, internet access, population growth, refugees, and development metrics relate to homicide rates across 169 countries.\n\n\n\n\nGitHub: Multivariate Stats Repo\nMultivariate regression, MANOVA, PCA, and CCA on physical measurements to estimate body fat % and BMI.\n\n\n\n\nGitHub: Valuation Analysis Repo\nFull DCF, comps, and precedent analysis determining an implied acquisition price of $26.87/share.\nIncludes a 30-page report and pitch deck."
+    "text": "Below is a curated lineup of my most impactful AI, ML, and data science projects. Each link takes you directly to the project’s GitHub repository or article.\n\n\n\nGitHub: Private Build\nMedium Article: Building MIRA\nA fully modular, voice-activated AI assistant with many autonomous agents (BrowserAgent, PlannerAgent, GmailAgent, CalendarAgent, WhatsAppAgent, MusicAgent).\nIncludes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async orchestration, and multimodal reasoning.\n\n\n\n\nWebsite: Quant Alpha Pipeline\nDeveloped as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons.\nIntegrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns.\nExtended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements.\n\n\n\n\nWebsite: Housing Price Prediction\n600k+ record real-estate dataset.\nFeature engineering + binning + Optuna-optimized XGBoost/LightGBM.\n\n\n\n\nGitHub: Elo Forecasting Repo\nATP tennis forecasting dashboard using ARIMA auto-selection + surface-aware Elo system.\nForecasts 6–24 month player form and win probabilities.\n\n\n\n\nWebsite: FairNBA Draft Predictor\nFairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX-based fairness constraints.\nReduces TPR gaps across school tiers.\n\n\n\n\nWebsite: Bias-Variance Tradeoff\nSimulated Ridge Regression vs OLS under linear and nonlinear DGPs.\nDemonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS.\n\n\n\n\nGitHub: Global Safety Regression Repo\nAnalyzing how GDP, internet access, population growth, refugees, and development metrics relate to homicide rates across 169 countries.\n\n\n\n\nGitHub: Multivariate Stats Repo\nMultivariate regression, MANOVA, PCA, and CCA on physical measurements to estimate body fat % and BMI.\n\n\n\n\nGitHub: Valuation Analysis Repo\nFull DCF, comps, and precedent analysis determining an implied acquisition price of $26.87/share.\nIncludes a 30-page report and pitch deck."
   },
   {
     "objectID": "index.html#mira-multimodal-ai-assistant",
@@ -18,14 +18,14 @@
     "href": "index.html#end-to-end-quant-alpha-pipeline-layered-workflow",
     "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
     "section": "",
-    "text": "Website: Statistical Learning Projects\nDeveloped as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons.\nIntegrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns.\nExtended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements."
+    "text": "Website: Quant Alpha Pipeline\nDeveloped as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons.\nIntegrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns.\nExtended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements."
   },
   {
     "objectID": "index.html#housing-price-prediction-1st-place-university-competition",
     "href": "index.html#housing-price-prediction-1st-place-university-competition",
     "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
     "section": "",
-    "text": "Website: Project Link\n600k+ record real-estate dataset.\nFeature engineering + binning + Optuna-optimized XGBoost/LightGBM."
+    "text": "Website: Housing Price Prediction\n600k+ record real-estate dataset.\nFeature engineering + binning + Optuna-optimized XGBoost/LightGBM."
   },
   {
     "objectID": "index.html#elo-based-time-series-forecasting",
@@ -39,14 +39,14 @@
     "href": "index.html#fair-nba-draft-predictor-fairstacks-ensemble",
     "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
     "section": "",
-    "text": "Website: FairNBA Project\nFairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX-based fairness constraints.\nReduces TPR gaps across school tiers."
+    "text": "Website: FairNBA Draft Predictor\nFairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX-based fairness constraints.\nReduces TPR gaps across school tiers."
   },
   {
     "objectID": "index.html#biasvariance-tradeoff-in-ridge-regression",
     "href": "index.html#biasvariance-tradeoff-in-ridge-regression",
     "title": "Saisrijith Reddy — AI • ML • Data Science Project Portfolio",
     "section": "",
-    "text": "Website: Project Link\nSimulated Ridge Regression vs OLS under linear and nonlinear DGPs.\nDemonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS."
+    "text": "Website: Bias-Variance Tradeoff\nSimulated Ridge Regression vs OLS under linear and nonlinear DGPs.\nDemonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS."
   },
   {
     "objectID": "index.html#global-safety-regression-model",
