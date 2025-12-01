@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs   # remove if you want root
 
 website:
   title: "AI • ML • Data • Finance Project Portfolio"
