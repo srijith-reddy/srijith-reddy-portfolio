@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "AI • ML • Data • Quant Project Portfolio"
+  title: "AI • ML • Data Science Project Portfolio"
   navbar:
     left:
       - href: index.qmd
