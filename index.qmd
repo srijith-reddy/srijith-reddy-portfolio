@@ -21,17 +21,8 @@ Includes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async
 
 ---
 
-## 📊 End-to-End Quant Alpha Pipeline (Layered Workflow)  
-**Website:** [Statistical Learning Projects](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
-
-Developed as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons.  
-Integrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns.  
-Extended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements.
-
----
-
 ## 🏠 Housing Price Prediction *(1st Place — University Competition)*  
-**Website:** [Project Link](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
+**Website:** [Housing Price Prediction](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
 
 600k+ record real-estate dataset.  
 Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.
@@ -47,7 +38,7 @@ Forecasts 6–24 month player form and win probabilities.
 ---
 
 ## 🏀 Fair NBA Draft Predictor — FairStacks Ensemble  
-**Website:** [FairNBA Project](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
+**Website:** [FairNBA Draft Predictor](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
 
 Fairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX-based fairness constraints.  
 Reduces TPR gaps across school tiers.
@@ -55,7 +46,7 @@ Reduces TPR gaps across school tiers.
 ---
 
 ## 📉 Bias–Variance Tradeoff in Ridge Regression  
-**Website:** [Project Link](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
+**Website:** [Bias-Variance Tradeoff](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
 
 Simulated Ridge Regression vs OLS under linear and nonlinear DGPs.  
 Demonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS.
@@ -73,6 +64,15 @@ Analyzing how GDP, internet access, population growth, refugees, and development
 **GitHub:** [Multivariate Stats Repo](https://github.com/srijith-reddy/Multivariate-Stat-Methods)
 
 Multivariate regression, MANOVA, PCA, and CCA on physical measurements to estimate body fat % and BMI.
+
+---
+
+## 📊 End-to-End Quant Alpha Pipeline (Layered Workflow)  
+**Website:** [Quant Alpha Pipeline](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
+
+Developed as a summer research project, this full-stack workflow builds and evaluates equity alpha factors across multiple time horizons.  
+Integrated OHLCV, options, and macroeconomic data, and applied SHAP- and IC-based feature pruning, ElasticNet ensembles, and Optuna-tuned XGBoost/LightGBM models to forecast 1D/5D/21D forward returns.  
+Extended with HMM-based regime detection and CVXPY portfolio optimization, achieving robust out-of-sample IC and Sharpe improvements.
 
 ---
 
