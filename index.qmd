@@ -29,6 +29,27 @@ Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.
 
 ---
 
+## 🧠 Sentiment Classification with Neural Networks  
+**GitHub:** https://github.com/srijith-reddy/Sentiment-Classification-with-Neural-Networks
+
+CNN-based sentiment classification on the Sentiment140 dataset (1.6M tweets).  
+Baseline CNN outperformed deeper variants; best test accuracy (79.54%) achieved with a 500-dimensional embedding, showing hyperparameters matter more than model depth.
+
+---
+
+## 🎬 CineSeq — Decay-Aware Seq2Seq Forecasting  
+**GitHub:** https://github.com/srijith-reddy/cine-multivariate-seq2seq-forecasting
+
+Research-oriented framework for short-horizon movie box-office forecasting.  
+Combines explicit exponential decay modeling with multivariate external signals using an LSTM–GRU Seq2Seq architecture.
+
+Builds a leakage-safe weekly panel (2010–2023), validates decay dynamics, and forecasts 4-week revenue horizons.  
+Incorporates trailer-based emotion embeddings via transfer learning and interprets predictions using Integrated Gradients.
+
+Attention-based decoding reduces test WAPE by ~41%, with strongest gains for movies exhibiting mid-run deviations from smooth decay.
+
+---
+
 ## 🎾 Elo-Based Time Series Forecasting  
 **GitHub:** [Elo Forecasting Repo](https://github.com/srijith-reddy/Elo-Based-Time-Series-Forecasting)
 
@@ -50,6 +71,14 @@ Reduces TPR gaps across school tiers.
 
 Simulated Ridge Regression vs OLS under linear and nonlinear DGPs.  
 Demonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS.
+
+---
+
+## 💳 Payment Method Classification (ML + ANN)  
+**GitHub:** https://github.com/srijith-reddy/Payment-Method-Classification-ML-ANN
+
+Leakage-free classification of payment method (Credit Card, Debit Card, PayPal) using numerical retail transaction features.  
+Multinomial logistic regression outperformed an ANN (≈0.67 vs ≈0.63 test accuracy), indicating limited signal rather than model instability.
 
 ---
 

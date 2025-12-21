@@ -113,9 +113,12 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#mira-multimodal-ai-assistant" id="toc-mira-multimodal-ai-assistant" class="nav-link" data-scroll-target="#mira-multimodal-ai-assistant">🧠 MIRA — Multimodal AI Assistant</a></li>
   <li><a href="#housing-price-prediction-1st-place-university-competition" id="toc-housing-price-prediction-1st-place-university-competition" class="nav-link" data-scroll-target="#housing-price-prediction-1st-place-university-competition">🏠 Housing Price Prediction <em>(1st Place — University Competition)</em></a></li>
+  <li><a href="#sentiment-classification-with-neural-networks" id="toc-sentiment-classification-with-neural-networks" class="nav-link" data-scroll-target="#sentiment-classification-with-neural-networks">🧠 Sentiment Classification with Neural Networks</a></li>
+  <li><a href="#cineseq-decay-aware-seq2seq-forecasting" id="toc-cineseq-decay-aware-seq2seq-forecasting" class="nav-link" data-scroll-target="#cineseq-decay-aware-seq2seq-forecasting">🎬 CineSeq — Decay-Aware Seq2Seq Forecasting</a></li>
   <li><a href="#elo-based-time-series-forecasting" id="toc-elo-based-time-series-forecasting" class="nav-link" data-scroll-target="#elo-based-time-series-forecasting">🎾 Elo-Based Time Series Forecasting</a></li>
   <li><a href="#fair-nba-draft-predictor-fairstacks-ensemble" id="toc-fair-nba-draft-predictor-fairstacks-ensemble" class="nav-link" data-scroll-target="#fair-nba-draft-predictor-fairstacks-ensemble">🏀 Fair NBA Draft Predictor — FairStacks Ensemble</a></li>
   <li><a href="#biasvariance-tradeoff-in-ridge-regression" id="toc-biasvariance-tradeoff-in-ridge-regression" class="nav-link" data-scroll-target="#biasvariance-tradeoff-in-ridge-regression">📉 Bias–Variance Tradeoff in Ridge Regression</a></li>
+  <li><a href="#payment-method-classification-ml-ann" id="toc-payment-method-classification-ml-ann" class="nav-link" data-scroll-target="#payment-method-classification-ml-ann">💳 Payment Method Classification (ML + ANN)</a></li>
   <li><a href="#global-safety-regression-model" id="toc-global-safety-regression-model" class="nav-link" data-scroll-target="#global-safety-regression-model">📊 Global Safety Regression Model</a></li>
   <li><a href="#multivariate-body-fat-bmi-analysis" id="toc-multivariate-body-fat-bmi-analysis" class="nav-link" data-scroll-target="#multivariate-body-fat-bmi-analysis">📏 Multivariate Body Fat &amp; BMI Analysis</a></li>
   <li><a href="#end-to-end-quant-alpha-pipeline-layered-workflow" id="toc-end-to-end-quant-alpha-pipeline-layered-workflow" class="nav-link" data-scroll-target="#end-to-end-quant-alpha-pipeline-layered-workflow">📊 End-to-End Quant Alpha Pipeline (Layered Workflow)</a></li>
@@ -166,6 +169,23 @@ Includes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async
 Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.</p>
 <hr>
 </section>
+<section id="sentiment-classification-with-neural-networks" class="level2">
+<h2 class="anchored" data-anchor-id="sentiment-classification-with-neural-networks">🧠 Sentiment Classification with Neural Networks</h2>
+<p><strong>GitHub:</strong> https://github.com/srijith-reddy/Sentiment-Classification-with-Neural-Networks</p>
+<p>CNN-based sentiment classification on the Sentiment140 dataset (1.6M tweets).<br>
+Baseline CNN outperformed deeper variants; best test accuracy (79.54%) achieved with a 500-dimensional embedding, showing hyperparameters matter more than model depth.</p>
+<hr>
+</section>
+<section id="cineseq-decay-aware-seq2seq-forecasting" class="level2">
+<h2 class="anchored" data-anchor-id="cineseq-decay-aware-seq2seq-forecasting">🎬 CineSeq — Decay-Aware Seq2Seq Forecasting</h2>
+<p><strong>GitHub:</strong> https://github.com/srijith-reddy/cine-multivariate-seq2seq-forecasting</p>
+<p>Research-oriented framework for short-horizon movie box-office forecasting.<br>
+Combines explicit exponential decay modeling with multivariate external signals using an LSTM–GRU Seq2Seq architecture.</p>
+<p>Builds a leakage-safe weekly panel (2010–2023), validates decay dynamics, and forecasts 4-week revenue horizons.<br>
+Incorporates trailer-based emotion embeddings via transfer learning and interprets predictions using Integrated Gradients.</p>
+<p>Attention-based decoding reduces test WAPE by ~41%, with strongest gains for movies exhibiting mid-run deviations from smooth decay.</p>
+<hr>
+</section>
 <section id="elo-based-time-series-forecasting" class="level2">
 <h2 class="anchored" data-anchor-id="elo-based-time-series-forecasting">🎾 Elo-Based Time Series Forecasting</h2>
 <p><strong>GitHub:</strong> <a href="https://github.com/srijith-reddy/Elo-Based-Time-Series-Forecasting">Elo Forecasting Repo</a></p>
@@ -185,6 +205,13 @@ Reduces TPR gaps across school tiers.</p>
 <p><strong>Website:</strong> <a href="https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/">Bias-Variance Tradeoff</a></p>
 <p>Simulated Ridge Regression vs OLS under linear and nonlinear DGPs.<br>
 Demonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS.</p>
+<hr>
+</section>
+<section id="payment-method-classification-ml-ann" class="level2">
+<h2 class="anchored" data-anchor-id="payment-method-classification-ml-ann">💳 Payment Method Classification (ML + ANN)</h2>
+<p><strong>GitHub:</strong> https://github.com/srijith-reddy/Payment-Method-Classification-ML-ANN</p>
+<p>Leakage-free classification of payment method (Credit Card, Debit Card, PayPal) using numerical retail transaction features.<br>
+Multinomial logistic regression outperformed an ANN (≈0.67 vs ≈0.63 test accuracy), indicating limited signal rather than model instability.</p>
 <hr>
 </section>
 <section id="global-safety-regression-model" class="level2">
