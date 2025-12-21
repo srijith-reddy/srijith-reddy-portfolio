@@ -30,7 +30,7 @@ Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.
 ---
 
 ## 🧠 Sentiment Classification with Neural Networks  
-**GitHub:** https://github.com/srijith-reddy/Sentiment-Classification-with-Neural-Networks
+**GitHub:** [Sentiment Classification](https://github.com/srijith-reddy/Sentiment-Classification-with-Neural-Networks)
 
 CNN-based sentiment classification on the Sentiment140 dataset (1.6M tweets).  
 Baseline CNN outperformed deeper variants; best test accuracy (79.54%) achieved with a 500-dimensional embedding, showing hyperparameters matter more than model depth.
@@ -38,7 +38,7 @@ Baseline CNN outperformed deeper variants; best test accuracy (79.54%) achieved 
 ---
 
 ## 🎬 CineSeq — Decay-Aware Seq2Seq Forecasting  
-**GitHub:** https://github.com/srijith-reddy/cine-multivariate-seq2seq-forecasting
+**GitHub:** [CineSeq](https://github.com/srijith-reddy/cine-multivariate-seq2seq-forecasting)
 
 Research-oriented framework for short-horizon movie box-office forecasting.  
 Combines explicit exponential decay modeling with multivariate external signals using an LSTM–GRU Seq2Seq architecture.
@@ -75,7 +75,7 @@ Demonstrated full bias–variance decomposition with clear visualizations showin
 ---
 
 ## 💳 Payment Method Classification (ML + ANN)  
-**GitHub:** https://github.com/srijith-reddy/Payment-Method-Classification-ML-ANN
+**GitHub:** [Payment Method Classification](https://github.com/srijith-reddy/Payment-Method-Classification-ML-ANN)
 
 Leakage-free classification of payment method (Credit Card, Debit Card, PayPal) using numerical retail transaction features.  
 Multinomial logistic regression outperformed an ANN (≈0.67 vs ≈0.63 test accuracy), indicating limited signal rather than model instability.
