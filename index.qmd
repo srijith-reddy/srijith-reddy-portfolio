@@ -29,6 +29,20 @@ Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.
 
 ---
 
+## 🚶 WalkWithMe — AR Pedestrian Navigation & Hazard Awareness  
+**GitHub:** [WalkWithMe Backend](https://github.com/srijith-reddy/walkwithme-backend)  
+**GitHub:** [WalkWithMe iOS Frontend](https://github.com/srijith-reddy/walkwithme-ios)
+
+A production-grade pedestrian navigation system combining ARKit, MapKit, and on-device computer vision to support real-world walking with safety-aware routing and hazard awareness.
+
+The stateless FastAPI backend is built around Valhalla and extends pedestrian routing with safety-, scenic-, elevation-, and context-aware ranking, trail discovery via isochrones, elevation analysis with multi-source fallbacks, and GPX export.
+
+The iOS frontend uses RealityKit and ARKit to render world-aligned routes and camera-relative hazard overlays, with turn-by-turn HUDs, a live minimap, and graceful fallback to Apple Maps when AR is unavailable.
+
+The architecture cleanly separates a stateful, tile-backed routing engine from a portable API layer, enabling flexible deployment and real-time AR navigation under mobile constraints.
+
+---
+
 ## 🧠 Sentiment Classification with Neural Networks  
 **GitHub:** [Sentiment Classification](https://github.com/srijith-reddy/Sentiment-Classification-with-Neural-Networks)
 
