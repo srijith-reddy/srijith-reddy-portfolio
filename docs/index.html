@@ -113,6 +113,8 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#mira-multimodal-ai-assistant" id="toc-mira-multimodal-ai-assistant" class="nav-link" data-scroll-target="#mira-multimodal-ai-assistant">🧠 MIRA — Multimodal AI Assistant</a></li>
   <li><a href="#housing-price-prediction-1st-place-university-competition" id="toc-housing-price-prediction-1st-place-university-competition" class="nav-link" data-scroll-target="#housing-price-prediction-1st-place-university-competition">🏠 Housing Price Prediction <em>(1st Place — University Competition)</em></a></li>
+  <li><a href="#walkwithme-ar-pedestrian-navigation-hazard-awareness" id="toc-walkwithme-ar-pedestrian-navigation-hazard-awareness" class="nav-link" data-scroll-target="#walkwithme-ar-pedestrian-navigation-hazard-awareness">🚶 WalkWithMe — AR Pedestrian Navigation &amp; Hazard Awareness</a></li>
+  <li><a href="#ufc-fight-prediction-leakage-free-ml-pipeline-inference-app" id="toc-ufc-fight-prediction-leakage-free-ml-pipeline-inference-app" class="nav-link" data-scroll-target="#ufc-fight-prediction-leakage-free-ml-pipeline-inference-app">🥊 UFC Fight Prediction — Leakage-Free ML Pipeline &amp; Inference App</a></li>
   <li><a href="#sentiment-classification-with-neural-networks" id="toc-sentiment-classification-with-neural-networks" class="nav-link" data-scroll-target="#sentiment-classification-with-neural-networks">🧠 Sentiment Classification with Neural Networks</a></li>
   <li><a href="#cineseq-decay-aware-seq2seq-forecasting" id="toc-cineseq-decay-aware-seq2seq-forecasting" class="nav-link" data-scroll-target="#cineseq-decay-aware-seq2seq-forecasting">🎬 CineSeq — Decay-Aware Seq2Seq Forecasting</a></li>
   <li><a href="#elo-based-time-series-forecasting" id="toc-elo-based-time-series-forecasting" class="nav-link" data-scroll-target="#elo-based-time-series-forecasting">🎾 Elo-Based Time Series Forecasting</a></li>
@@ -167,6 +169,22 @@ Includes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async
 <p><strong>Website:</strong> <a href="https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/">Housing Price Prediction</a></p>
 <p>600k+ record real-estate dataset.<br>
 Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.</p>
+<hr>
+</section>
+<section id="walkwithme-ar-pedestrian-navigation-hazard-awareness" class="level2">
+<h2 class="anchored" data-anchor-id="walkwithme-ar-pedestrian-navigation-hazard-awareness">🚶 WalkWithMe — AR Pedestrian Navigation &amp; Hazard Awareness</h2>
+<p><strong>GitHub:</strong> <a href="https://github.com/srijith-reddy/walkwithme-backend">WalkWithMe Backend</a><br>
+<strong>GitHub:</strong> <a href="https://github.com/srijith-reddy/walkwithme-ios">WalkWithMe iOS Frontend</a></p>
+<p>A production-grade pedestrian navigation system combining ARKit, MapKit, and on-device computer vision to support real-world walking with safety-aware routing and hazard awareness.</p>
+<p>The stateless FastAPI backend is built around Valhalla and extends pedestrian routing with safety-, scenic-, elevation-, and context-aware ranking via isochrones, elevation analysis with multi-source fallbacks, and GPX export.</p>
+<p>The iOS frontend uses RealityKit and ARKit to render world-aligned routes and camera-relative hazard overlays, with turn-by-turn HUDs, a live minimap, and graceful fallback to Apple Maps when AR is unavailable.</p>
+<p>The architecture cleanly separates a stateful, tile-backed routing engine from a portable API layer, enabling flexible deployment and real-time AR navigation under mobile constraints.</p>
+<hr>
+</section>
+<section id="ufc-fight-prediction-leakage-free-ml-pipeline-inference-app" class="level2">
+<h2 class="anchored" data-anchor-id="ufc-fight-prediction-leakage-free-ml-pipeline-inference-app">🥊 UFC Fight Prediction — Leakage-Free ML Pipeline &amp; Inference App</h2>
+<p><strong>GitHub:</strong> <a href="https://github.com/srijith-reddy/ufc_app">UFC Fight Prediction</a></p>
+<p>An end-to-end, leakage-free UFC fight prediction system built under strict prefight constraints, covering data curation, feature engineering, model training, calibration, and deployment. The pipeline enforces temporal integrity using Glicko ratings, shift-based feature construction, quantile clipping, and log transforms, ensuring all features are legally available at prediction time. Multiple models are evaluated, with a calibrated XGBoost model achieving strong out-of-sample AUC and well-behaved probabilities, making it suitable for real-world inference. The project culminates in a production-safe Streamlit app that mirrors training preprocessing exactly and outputs deterministic, calibrated win probabilities for full fight cards.</p>
 <hr>
 </section>
 <section id="sentiment-classification-with-neural-networks" class="level2">
