@@ -31,7 +31,7 @@ Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.
 
 ## 🚶 WalkWithMe — AR Pedestrian Navigation & Hazard Awareness  
 **GitHub:** [WalkWithMe Backend](https://github.com/srijith-reddy/walkwithme-backend)  
-**GitHub:** [WalkWithMe iOS Frontend](https://github.com/srijith-reddy/walkwithme-ios)
+**GitHub:** [WalkWithMe iOS Frontend](https://github.com/srijith-reddy/walkwithme-frontend)
 
 A production-grade pedestrian navigation system combining ARKit, MapKit, and on-device computer vision to support real-world walking with safety-aware routing and hazard awareness.
 
