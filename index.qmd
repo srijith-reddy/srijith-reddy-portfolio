@@ -44,8 +44,8 @@ The architecture cleanly separates a stateful, tile-backed routing engine from a
 ---
 
 ## 🥊 UFC Fight Prediction — Leakage-Free ML Pipeline & Inference App
-**Website:** [Live App](https://srijith-reddy-ufc-app-app-2grqrv.streamlit.app/)
 **GitHub:** [UFC Fight Prediction](https://github.com/srijith-reddy/ufc_app)
+**Website:** [Live App](https://srijith-reddy-ufc-app-app-2grqrv.streamlit.app/)
 
 An end-to-end, leakage-free UFC fight prediction system built under strict prefight constraints, covering data curation, feature engineering, model training, calibration, and deployment.
 
