@@ -22,7 +22,7 @@ Includes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async
 ---
 
 ## 🏠 Housing Price Prediction *(1st Place — University Competition)*  
-**Website:** [Property Valuation Modeling](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
+**Website:** [Housing Price Prediction](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/project3.html)
 
 600k+ record real-estate dataset.  
 Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.
@@ -87,7 +87,7 @@ Forecasts 6–24 month player form and win probabilities.
 ---
 
 ## 🏀 Fair NBA Draft Predictor — FairStacks Ensemble  
-**Website:** [FairNBA Draft Predictor](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
+**Website:** [FairNBA Draft Predictor](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/project2.html)
 
 Fairness-aware classification using Naive Bayes, LDA, SVM, Ridge/Lasso Logistic Regression with CVX-based fairness constraints.  
 Reduces TPR gaps across school tiers.
@@ -95,7 +95,7 @@ Reduces TPR gaps across school tiers.
 ---
 
 ## 📉 Bias–Variance Tradeoff in Ridge Regression  
-**Website:** [Bias-Variance Tradeoff](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
+**Website:** [Bias-Variance Tradeoff](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/project1.html)
 
 Simulated Ridge Regression vs OLS under linear and nonlinear DGPs.  
 Demonstrated full bias–variance decomposition with clear visualizations showing when Ridge outperforms OLS.
