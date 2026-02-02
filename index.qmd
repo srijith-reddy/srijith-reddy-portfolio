@@ -22,7 +22,7 @@ Includes wake-word detection, GPT-4o vision fusion, trust-ranked browsing, async
 ---
 
 ## 🏠 Housing Price Prediction *(1st Place — University Competition)*  
-**Website:** [Housing Price Prediction](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
+**Website:** [Property Valuation Modeling](https://srijith-reddy.github.io/Statistical-Learning-for-Data-Mining-Projects/)
 
 600k+ record real-estate dataset.  
 Feature engineering + binning + Optuna-optimized XGBoost/LightGBM.
