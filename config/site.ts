@@ -16,9 +16,9 @@ export const siteConfig = {
   github: "https://github.com/srijith-reddy",
   linkedin: "https://linkedin.com/in/saisrijith-reddy-maramreddy",
   email: "mailto:saisrijith@example.com", // update with real email
-  avatarUrl: "https://avatars.githubusercontent.com/u/171439175?v=4",
+  avatarUrl: "/profile_pic.png",
   siteUrl: "https://srijith-reddy.vercel.app",
-  ogImage: "https://avatars.githubusercontent.com/u/171439175?v=4",
+  ogImage: "https://srijith-reddy-portfolio-main.vercel.app/profile_pic.png",
 };
 
 // ─── Pinned / featured repos (shown in "Selected Work") ───────────────────────
