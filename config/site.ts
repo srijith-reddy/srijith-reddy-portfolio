@@ -5,25 +5,123 @@ export const siteConfig = {
   name: "Saisrijith Reddy",
   githubUsername: "srijith-reddy",
   title: "AI Engineer & Builder",
-  tagline: "I build AI systems that feel like products.",
+  tagline: "Full-stack AI engineer. I ship the model and the app it lives in.",
   description:
-    "From multimodal AI and intelligent voice agents to iOS navigation apps and forecasting systems — I turn ambitious ideas into polished, working software.",
+    "Voice agents, vision systems, iOS navigation, and calibrated ML — I build AI-native products end-to-end. On the side: graduate research in statistical learning at Baruch.",
   about: [
-    "I'm an AI engineer with a product-first mindset. My work spans the full stack of applied intelligence — from building multi-agent voice systems and virtual try-on tools to shipping native iOS apps and deploying calibrated ML models into real products.",
-    "Recent focus: multimodal AI, intelligent assistants, and building experiences that make AI feel native rather than bolted on.",
-    "Background across machine learning, data science, statistics, and mobile development gives me range across the full technical spectrum.",
+    "I'm a full-stack AI engineer — I work between AI systems and shipped product, taking models and primitives and building the whole app around them.",
+    "I came up through industrial engineering, finance, statistics, and product, and each taught me something I use daily. That range is how I end up shipping multi-agent voice systems, calibrated ML for real markets, and iOS apps with on-device vision.",
+    "Currently: graduate research in statistical learning at Baruch, hackathon weekends in NYC, and a long queue of product ideas I'm chipping through. Looking for problems where the modeling and the product both matter — and where owning both ends is the unlock.",
   ],
   github: "https://github.com/srijith-reddy",
-  linkedin: "https://linkedin.com/in/saisrijith-reddy-maramreddy",
-  email: "mailto:saisrijith@example.com", // update with real email
+  linkedin:
+    "https://www.linkedin.com/in/saisrijith-reddy-maramreddy-399869166",
+  email: "mailto:shrey.maramreddy@gmail.com",
   avatarUrl: "/profile_pic.png",
   siteUrl: "https://srijith-reddy.vercel.app",
   ogImage: "https://srijith-reddy-portfolio-main.vercel.app/profile_pic.png",
 };
 
+// ─── Hackathon wins (surfaced in Experience section) ─────────────────────────
+export interface Hackathon {
+  name: string;
+  placement: string;
+  event: string;
+  venue: string;
+  date: string;
+  summary: string;
+  bullets: readonly string[];
+  team: readonly string[];
+  liveUrl?: string;
+  repoUrl?: string;
+}
+
+export const HACKATHONS: readonly Hackathon[] = [
+  {
+    name: "AI Blocks",
+    placement: "1st Place",
+    event: "VibeForward × Lovable",
+    venue: "Fordham Gabelli, NYC",
+    date: "2026",
+    summary:
+      "Recreated Scratch for AI engineering: a visual, node-based way to build AI systems instead of writing everything from scratch.",
+    bullets: [
+      "505 adaptive blocks wired into DAG-based system designs",
+      "Two-stage decomposition: pick the stack, then retrieve only relevant blocks via embedding similarity",
+      "Drop in any codebase — AI Blocks detects the stack, links files to blocks, and highlights gaps",
+      "~80% fewer tokens vs. Opus 4.6 on equivalent tasks",
+    ],
+    team: ["Ryan Rana", "Nathanael Lara", "Makendy Midouin", "Buddhsen Tripathi"],
+    liveUrl: "https://vercel-upload-psi.vercel.app/",
+    repoUrl: "https://github.com/srijith-reddy/Scratch-for-AI-Dev",
+  },
+  {
+    name: "Situational Intelligence",
+    placement: "1st Place",
+    event: "Grayscale Hackathon",
+    venue: "NYC · Pioneering Minds AI",
+    date: "2025",
+    summary:
+      "Real-time AI surveillance system that monitors live feeds, detects emergencies (falls, fights, fires), and understands context before triggering alerts.",
+    bullets: [
+      "Context-aware reasoning reduces false alarms and enables smarter dispatch",
+      "Pulls city data to prioritize and route responder alerts",
+      "Built end-to-end in 6 hours — shipped with live simulated fall demo",
+    ],
+    team: ["Ryan Rana", "Jaiden B", "Nathanael Lara"],
+  },
+];
+
+// ─── Research & professional experience ──────────────────────────────────────
+export const EXPERIENCE = [
+  {
+    role: "Research Assistant — Prof. Zeda Li",
+    org: "Research Foundation of CUNY",
+    location: "New York, NY",
+    period: "Nov 2025 – Present",
+    bullets: [
+      "Designing simulation frameworks for brain connectivity networks",
+      "Implementing network inference methods including Graphical Lasso and Bayesian models",
+    ],
+  },
+  {
+    role: "Data Analyst Intern",
+    org: "BCITS Pvt Ltd",
+    location: "Remote",
+    period: "Sept 2022 – July 2023",
+    bullets: [
+      "Large-scale data cleansing across billing and IoT datasets",
+      "Drove 15% improvement in billing accuracy and 20% lift in customer satisfaction",
+    ],
+  },
+] as const;
+
+// ─── Education ────────────────────────────────────────────────────────────────
+export const EDUCATION = [
+  {
+    school: "Baruch College — Zicklin School of Business",
+    degree: "MS, Statistics",
+    period: "Expected May 2026",
+    detail: "GPA 3.95 · Regression, Statistical Inference, Multivariate Methods, ML, Data Mining",
+  },
+  {
+    school: "Imperial College Business School",
+    degree: "MSc, Investment & Wealth Management",
+    period: "Sept 2021 – Sept 2022",
+    detail: "Merit classification · London, UK",
+  },
+  {
+    school: "Pennsylvania State University",
+    degree: "BS, Industrial Engineering",
+    period: "Aug 2016 – May 2020",
+    detail: "GPA 3.83 · Dean's List, all semesters",
+  },
+] as const;
+
 // ─── Pinned / featured repos (shown in "Selected Work") ───────────────────────
 // Change this list to control which projects appear as featured cards
 export const FEATURED_REPOS: string[] = [
+  "Scratch-for-AI-Dev",
   "M.I.R.A",
   "mira-stylist",
   "Pulse_hackathon",
@@ -49,6 +147,14 @@ export const HIDDEN_REPOS: string[] = [
 // ─── Manual overrides per repo ────────────────────────────────────────────────
 // Override any auto-inferred metadata for specific repos
 export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
+  "Scratch-for-AI-Dev": {
+    displayName: "AI Blocks",
+    description:
+      "🥇 1st place at VibeForward × Lovable (NYC). Scratch for AI engineering — 505 adaptive blocks wired into DAG-based systems. Drop in any codebase and it auto-maps the stack, links files to blocks, and highlights gaps. ~80% fewer tokens vs. Opus 4.6.",
+    category: "AI Systems",
+    stack: ["TypeScript", "Next.js", "Embeddings", "DAG", "MCP"],
+    featured: true,
+  },
   "M.I.R.A": {
     displayName: "M.I.R.A",
     description:
@@ -63,6 +169,7 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
       "A luxury AI fashion companion with conversational style onboarding, virtual try-on powered by computer vision, editorial commentary, and animated look generation.",
     category: "Applied AI Products",
     stack: ["Python", "OpenAI", "Computer Vision", "FastAPI"],
+    liveUrl: undefined,
     featured: true,
   },
   "Pulse_hackathon": {
@@ -99,9 +206,9 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
     featured: true,
   },
   "situational-intelligence": {
-    displayName: "AEGIS",
+    displayName: "Situational Intelligence",
     description:
-      "Browser-based situational intelligence prototype for emergency monitoring. Live camera, motion analysis, Claude Vision threat assessment, speech-triggered dispatch workflows, and responder mapping.",
+      "🥇 1st place at the Grayscale Hackathon (NYC, Pioneering Minds AI). Real-time AI surveillance for emergency monitoring — live camera, motion analysis, Claude Vision threat assessment, speech-triggered dispatch, and responder mapping. Context-aware reasoning to cut false alarms.",
     category: "Applied AI Products",
     stack: ["JavaScript", "Claude Vision", "WebRTC", "Vite", "Leaflet"],
     featured: true,

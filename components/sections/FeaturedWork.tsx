@@ -16,27 +16,37 @@ function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
 
   return (
     <AnimatedSection delay={index * 0.08}>
-      <motion.article
+      <motion.a
+        href={repo.githubUrl}
+        target="_blank"
+        rel="noopener noreferrer"
         whileHover={{ y: -4 }}
         transition={{ duration: 0.25, ease: "easeOut" }}
         className={cn(
           "group relative flex flex-col h-full rounded-2xl overflow-hidden",
           "border border-white/[0.07] bg-surface shimmer-border",
-          "hover:border-white/[0.12] transition-colors duration-300"
+          "hover:border-white/[0.14] transition-colors duration-300",
+          "cursor-pointer"
         )}
       >
         {/* Category gradient header band */}
         <div
           className={cn(
-            "absolute inset-x-0 top-0 h-[140px] bg-gradient-to-b opacity-50",
+            "absolute inset-x-0 top-0 h-[140px] bg-gradient-to-b opacity-50 pointer-events-none",
             meta.glow
           )}
+        />
+
+        {/* Hover arrow accent */}
+        <ArrowUpRight
+          size={15}
+          className="absolute top-5 right-5 text-muted/50 opacity-0 group-hover:opacity-100 group-hover:text-primary transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 pointer-events-none"
         />
 
         {/* Card content */}
         <div className="relative flex flex-col h-full p-6 gap-4">
           {/* Top row: category + language */}
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between pr-7">
             <span
               className={cn(
                 "text-[0.65rem] font-semibold tracking-[0.14em] uppercase",
@@ -46,7 +56,7 @@ function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
               {meta.label}
             </span>
             {repo.language && (
-              <span className="text-[0.65rem] text-muted font-medium tracking-wide uppercase">
+              <span className="text-[0.65rem] text-muted font-medium tracking-wide uppercase group-hover:opacity-0 transition-opacity duration-200">
                 {repo.language}
               </span>
             )}
@@ -77,39 +87,32 @@ function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
           {/* Divider */}
           <div className="border-t border-white/[0.06]" />
 
-          {/* Links */}
+          {/* Footer actions */}
           <div className="flex items-center gap-4">
-            <a
-              href={repo.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group/link inline-flex items-center gap-1.5 text-xs text-secondary hover:text-primary transition-colors duration-200"
-            >
+            <span className="inline-flex items-center gap-1.5 text-xs text-secondary">
               <Github size={13} />
               <span>Source</span>
-              <ArrowUpRight
-                size={11}
-                className="opacity-0 group-hover/link:opacity-100 -ml-0.5 transition-opacity"
-              />
-            </a>
+            </span>
             {repo.liveUrl && (
-              <a
-                href={repo.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group/link inline-flex items-center gap-1.5 text-xs text-secondary hover:text-primary transition-colors duration-200 ml-auto"
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  window.open(repo.liveUrl, "_blank", "noopener,noreferrer");
+                }}
+                className="group/live inline-flex items-center gap-1.5 text-xs text-secondary hover:text-primary transition-colors duration-200 ml-auto"
               >
                 <ExternalLink size={13} />
                 <span>Live</span>
                 <ArrowUpRight
                   size={11}
-                  className="opacity-0 group-hover/link:opacity-100 -ml-0.5 transition-opacity"
+                  className="opacity-0 group-hover/live:opacity-100 -ml-0.5 transition-opacity"
                 />
-              </a>
+              </button>
             )}
           </div>
         </div>
-      </motion.article>
+      </motion.a>
     </AnimatedSection>
   );
 }

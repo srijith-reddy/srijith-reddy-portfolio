@@ -6,6 +6,7 @@ import Hero from "@/components/sections/Hero";
 import FeaturedWork from "@/components/sections/FeaturedWork";
 import ProjectArchive from "@/components/sections/ProjectArchive";
 import About from "@/components/sections/About";
+import Experience from "@/components/sections/Experience";
 import Stack from "@/components/sections/Stack";
 import Contact from "@/components/sections/Contact";
 
@@ -24,6 +25,7 @@ export default async function Home() {
       <FeaturedWork repos={repos} />
       <ProjectArchive repos={repos} />
       <About />
+      <Experience />
       <Stack />
       <Contact />
       <Footer />

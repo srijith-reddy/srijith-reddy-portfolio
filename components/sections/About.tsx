@@ -6,10 +6,9 @@ import { siteConfig } from "@/config/site";
 import AnimatedSection from "@/components/AnimatedSection";
 
 const STATS = [
-  { label: "Projects", value: "15+" },
-  { label: "Languages", value: "6" },
-  { label: "Domains", value: "5" },
-  { label: "Repos", value: "23" },
+  { label: "Hackathon Wins", value: "2×" },
+  { label: "GPA (MS Stats)", value: "3.95" },
+  { label: "Shipped Projects", value: "15+" },
 ];
 
 export default function About() {
@@ -44,7 +43,7 @@ export default function About() {
 
             {/* Stats */}
             <AnimatedSection delay={0.4}>
-              <div className="grid grid-cols-4 gap-4 pt-4">
+              <div className="grid grid-cols-3 gap-4 pt-4">
                 {STATS.map((stat) => (
                   <div key={stat.label} className="flex flex-col gap-0.5">
                     <span className="text-display-md font-light text-primary">

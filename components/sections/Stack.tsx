@@ -5,30 +5,54 @@ import { cn } from "@/lib/utils";
 
 const STACK_GROUPS = [
   {
-    label: "Languages",
-    items: ["Python", "TypeScript", "Swift", "JavaScript", "R", "SQL"],
+    label: "Languages & Tools",
+    items: ["Python", "TypeScript", "Swift", "R", "SQL", "SAS", "Git", "Jupyter"],
   },
   {
-    label: "AI & ML",
+    label: "AI, LLMs & Agents",
     items: [
       "OpenAI API",
-      "Whisper",
+      "Claude Vision",
       "LangChain",
-      "PyTorch",
-      "XGBoost",
-      "Scikit-learn",
-      "Seq2Seq LSTM/GRU",
-      "Attention Mechanisms",
-      "Knowledge Distillation",
+      "LangGraph",
+      "Hugging Face",
+      "Whisper",
+      "Cartesia",
+      "Embeddings / RAG",
     ],
   },
   {
-    label: "Frameworks",
-    items: ["Next.js", "React", "FastAPI", "SwiftUI", "ARKit", "CoreML"],
+    label: "ML & Statistical Learning",
+    items: [
+      "PyTorch",
+      "Scikit-learn",
+      "XGBoost",
+      "LightGBM",
+      "Ridge / Lasso",
+      "SVM",
+      "LDA",
+      "Graphical Lasso",
+      "Seq2Seq LSTM/GRU",
+      "Attention",
+    ],
   },
   {
-    label: "Infrastructure",
-    items: ["Vercel", "GitHub Actions", "Docker", "Jupyter", "PostgreSQL"],
+    label: "Product & Infra",
+    items: [
+      "Next.js",
+      "React",
+      "FastAPI",
+      "Streamlit",
+      "SwiftUI",
+      "ARKit",
+      "CoreML",
+      "Vercel",
+      "PostgreSQL",
+    ],
+  },
+  {
+    label: "Analysis & Visualization",
+    items: ["Matplotlib", "Seaborn", "ggplot2", "Quarto", "LaTeX", "Excel"],
   },
 ];
 
