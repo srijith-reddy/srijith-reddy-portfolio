@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Github, Menu, X } from "lucide-react";
+import { Github, Menu, X, FileText } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
@@ -65,8 +65,18 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Right: GitHub + mobile toggle */}
+          {/* Right: Resume + GitHub + mobile toggle */}
           <div className="flex items-center gap-3">
+            <a
+              href={siteConfig.resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Resume"
+              className="flex items-center gap-2 text-sm text-secondary hover:text-primary transition-colors px-3 py-1.5 rounded-md hover:bg-white/[0.04] border border-transparent hover:border-white/[0.07]"
+            >
+              <FileText size={16} />
+              <span className="hidden sm:inline">Resume</span>
+            </a>
             <a
               href={siteConfig.github}
               target="_blank"

@@ -14,6 +14,7 @@ export const siteConfig = {
     "Currently: graduate research in statistical learning at Baruch, hackathon weekends in NYC, and a long queue of product ideas I'm chipping through. Looking for problems where the modeling and the product both matter — and where owning both ends is the unlock.",
   ],
   github: "https://github.com/srijith-reddy",
+  resume: "/srijith_resume.pdf",
   linkedin:
     "https://www.linkedin.com/in/saisrijith-reddy-maramreddy-399869166",
   email: "mailto:shrey.maramreddy@gmail.com",
