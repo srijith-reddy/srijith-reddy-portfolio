@@ -161,6 +161,8 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
       "A full multi-agent AI voice assistant with wake-word detection, real-time speech processing, and intelligent task routing across specialized sub-agents.",
     category: "AI Systems",
     stack: ["Python", "OpenAI", "Whisper", "Cartesia", "Playwright"],
+    liveUrl: "https://medium.com/@shrey.maramreddy/building-mira-my-voice-activated-multimodal-ai-assistant-from-scratch-604448979a1a",
+    liveLabel: "Article",
     featured: true,
   },
   "mira-stylist": {

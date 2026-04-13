@@ -36,6 +36,7 @@ export interface ProcessedRepo {
   stack: string[];
   githubUrl: string;
   liveUrl?: string;
+  liveLabel?: string;
   language: string | null;
   stars: number;
   updatedAt: string;

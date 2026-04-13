@@ -103,7 +103,7 @@ function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
                 className="group/live inline-flex items-center gap-1.5 text-xs text-secondary hover:text-primary transition-colors duration-200 ml-auto"
               >
                 <ExternalLink size={13} />
-                <span>Live</span>
+                <span>{repo.liveLabel ?? "Live"}</span>
                 <ArrowUpRight
                   size={11}
                   className="opacity-0 group-hover/live:opacity-100 -ml-0.5 transition-opacity"
