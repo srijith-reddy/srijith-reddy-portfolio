@@ -41,6 +41,9 @@ export const HIDDEN_REPOS: string[] = [
   "resume",                 // Jekyll template fork, not a project
   "srijith-reddy-portfolio",  // old Quarto site
   "walkwithme-backend",     // bundled into walkwithme-frontend card
+  "ai-agents-llm-projects",  // too basic
+  "SQL-Mini-Projects",       // too basic
+  "NEETCODE-150-SQL-50-Study-Guide",  // study guide, not a project
 ];
 
 // ─── Manual overrides per repo ────────────────────────────────────────────────
