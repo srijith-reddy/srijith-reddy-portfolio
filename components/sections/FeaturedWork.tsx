@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github, ArrowUpRight } from "lucide-react";
 import type { ProcessedRepo } from "@/lib/types";
-import { CATEGORY_META } from "@/config/site";
+import { CATEGORY_META, FEATURED_REPOS } from "@/config/site";
 import { cn } from "@/lib/utils";
 import AnimatedSection from "@/components/AnimatedSection";
 
@@ -118,7 +118,9 @@ function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
 }
 
 export default function FeaturedWork({ repos }: FeaturedWorkProps) {
-  const featured = repos.filter((r) => r.featured);
+  const featured = repos
+    .filter((r) => r.featured)
+    .sort((a, b) => FEATURED_REPOS.indexOf(a.name) - FEATURED_REPOS.indexOf(b.name));
 
   return (
     <section id="work" className="relative py-32">
