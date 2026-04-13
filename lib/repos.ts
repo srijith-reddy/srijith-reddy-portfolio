@@ -137,7 +137,7 @@ function formatDisplayName(name: string): string {
 // ─── Main pipeline ─────────────────────────────────────────────────────────────
 export function processRepos(raw: GitHubRepo[]): ProcessedRepo[] {
   return raw
-    .filter((r) => !r.fork && !HIDDEN_REPOS.includes(r.name))
+    .filter((r) => !HIDDEN_REPOS.includes(r.name))
     .map((repo): ProcessedRepo => {
       const override = REPO_OVERRIDES[repo.name] ?? {};
       const base: ProcessedRepo = {

@@ -29,16 +29,16 @@ export const FEATURED_REPOS: string[] = [
   "Pulse_hackathon",
   "ufc_app",
   "walkwithme-frontend",
+  "situational-intelligence",
+  "trace",
   "cine-multivariate-seq2seq-forecasting",
 ];
 
 // ─── Hidden repos (never shown on the site) ───────────────────────────────────
 export const HIDDEN_REPOS: string[] = [
   "srijith-reddy",          // profile README
-  "vercel-upload",          // deploy utility fork
-  "resume",                 // fork — not a project
-  "trace",                  // fork — not a project
-  "situational-intelligence", // fork
+  "vercel-upload",          // deploy scratch fork, not a project
+  "resume",                 // Jekyll template fork, not a project
   "srijith-reddy-portfolio",  // old Quarto site
   "walkwithme-backend",     // bundled into walkwithme-frontend card
 ];
@@ -93,6 +93,22 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
       "Decay-aware multivariate Seq2Seq forecasting for movie box-office revenue. Combines exponential decay structure with attention-augmented LSTM–GRU and trailer emotion embeddings.",
     category: "Machine Learning",
     stack: ["Python", "PyTorch", "LSTM/GRU", "Attention", "Jupyter"],
+    featured: true,
+  },
+  "situational-intelligence": {
+    displayName: "AEGIS",
+    description:
+      "Browser-based situational intelligence prototype for emergency monitoring. Live camera, motion analysis, Claude Vision threat assessment, speech-triggered dispatch workflows, and responder mapping.",
+    category: "Applied AI Products",
+    stack: ["JavaScript", "Claude Vision", "WebRTC", "Vite", "Leaflet"],
+    featured: true,
+  },
+  "trace": {
+    displayName: "Trace",
+    description:
+      "24/7 AI-powered supply chain manager and payment agent. Monitors inventory, surfaces disruptions, and orchestrates autonomous payment and fulfillment actions.",
+    category: "AI Systems",
+    stack: ["JavaScript", "AI Agents", "Payments API"],
     featured: true,
   },
   "ai-agents-llm-projects": {
