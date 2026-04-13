@@ -44,6 +44,14 @@ export const HIDDEN_REPOS: string[] = [
   "ai-agents-llm-projects",  // too basic
   "SQL-Mini-Projects",       // too basic
   "NEETCODE-150-SQL-50-Study-Guide",  // study guide, not a project
+  // Hide Data Science / ML / Stats coursework
+  "Payment-Method-Classification-ML-ANN",
+  "Sentiment-Classification-with-Neural-Networks",
+  "Elo-Based-Time-Series-Forecasting",
+  "msft-pinterest-valuation-analysis",
+  "Statistical-Learning-for-Data-Mining-Projects",
+  "Global-Safety-Regression-Model",
+  "Multivariate-Stat-Methods",
 ];
 
 // ─── Manual overrides per repo ────────────────────────────────────────────────
