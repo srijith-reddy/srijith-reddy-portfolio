@@ -130,6 +130,8 @@ export const FEATURED_REPOS: string[] = [
   "walkwithme-frontend",
   "trace",
   "cine-multivariate-seq2seq-forecasting",
+  "Elo-Based-Time-Series-Forecasting",
+  "Statistical-Learning-for-Data-Mining-Projects",
 ];
 
 // ─── Hidden repos (never shown on the site) ───────────────────────────────────
