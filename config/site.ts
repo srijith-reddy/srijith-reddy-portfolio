@@ -250,7 +250,7 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
     displayName: "Elo-Based Forecasting",
     description:
       "Sports outcome forecasting using Elo ratings combined with time-series modeling for dynamic win-probability prediction.",
-    category: "Data Science",
+    category: "Machine Learning",
     stack: ["Python", "Time Series", "Elo Rating", "Jupyter"],
   },
   "Statistical-Learning-for-Data-Mining-Projects": {
