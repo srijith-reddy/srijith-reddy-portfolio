@@ -98,7 +98,6 @@ function ArchiveCard({ repo }: { repo: ProcessedRepo }) {
 
 export default function ProjectArchive({ repos }: ProjectArchiveProps) {
   const [search, setSearch] = useState("");
-  const [activeCategory, setActiveCategory] = useState<FilterCategory>(ALL_CATEGORY);
 
   // Only show non-featured repos in the archive (featured have their own section)
   const archiveRepos = useMemo(
@@ -106,26 +105,19 @@ export default function ProjectArchive({ repos }: ProjectArchiveProps) {
     [repos]
   );
 
-  // All unique categories from archive repos
-  const categories = useMemo<FilterCategory[]>(() => {
-    const cats = Array.from(new Set(archiveRepos.map((r) => r.category)));
-    return [ALL_CATEGORY, ...cats.sort()];
-  }, [archiveRepos]);
 
   const filtered = useMemo(() => {
+    const query = search.toLowerCase();
     return archiveRepos.filter((repo) => {
-      const matchesCategory =
-        activeCategory === ALL_CATEGORY || repo.category === activeCategory;
-      const query = search.toLowerCase();
-      const matchesSearch =
+      return (
         !query ||
         repo.displayName.toLowerCase().includes(query) ||
         repo.description.toLowerCase().includes(query) ||
         repo.stack.some((s) => s.toLowerCase().includes(query)) ||
-        repo.category.toLowerCase().includes(query);
-      return matchesCategory && matchesSearch;
+        repo.category.toLowerCase().includes(query)
+      );
     });
-  }, [archiveRepos, activeCategory, search]);
+  }, [archiveRepos, search]);
 
   return (
     <section className="relative py-24">
@@ -146,57 +138,34 @@ export default function ProjectArchive({ repos }: ProjectArchiveProps) {
           </div>
         </AnimatedSection>
 
-        {/* Controls */}
+        {/* Search */}
         <AnimatedSection delay={0.1}>
-          <div className="flex flex-col sm:flex-row gap-4 mb-8">
-            {/* Search */}
-            <div className="relative flex-1 max-w-sm">
-              <Search
-                size={14}
-                className="absolute left-3 top-1/2 -translate-y-1/2 text-muted pointer-events-none"
-              />
-              <input
-                type="text"
-                placeholder="Search projects, stack, category…"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                className={cn(
-                  "w-full pl-9 pr-8 py-2.5 rounded-lg text-sm",
-                  "bg-surface border border-white/[0.08]",
-                  "text-primary placeholder:text-muted",
-                  "focus:outline-none focus:border-white/[0.16] focus:bg-elevated",
-                  "transition-all duration-200"
-                )}
-              />
-              {search && (
-                <button
-                  onClick={() => setSearch("")}
-                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted hover:text-secondary transition-colors"
-                >
-                  <X size={13} />
-                </button>
+          <div className="relative flex-1 max-w-sm mb-8">
+            <Search
+              size={14}
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-muted pointer-events-none"
+            />
+            <input
+              type="text"
+              placeholder="Search projects…"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className={cn(
+                "w-full pl-9 pr-8 py-2.5 rounded-lg text-sm",
+                "bg-surface border border-white/[0.08]",
+                "text-primary placeholder:text-muted",
+                "focus:outline-none focus:border-white/[0.16] focus:bg-elevated",
+                "transition-all duration-200"
               )}
-            </div>
-
-            {/* Category filters */}
-            <div className="flex flex-wrap gap-2">
-              {categories.map((cat) => (
-                <button
-                  key={cat}
-                  onClick={() => setActiveCategory(cat)}
-                  className={cn(
-                    "text-xs px-3 py-1.5 rounded-lg border transition-all duration-200",
-                    activeCategory === cat
-                      ? "bg-primary text-background border-primary font-medium"
-                      : "border-white/[0.08] text-secondary hover:border-white/[0.16] hover:text-primary"
-                  )}
-                >
-                  {cat === ALL_CATEGORY
-                    ? `All (${archiveRepos.length})`
-                    : cat}
-                </button>
-              ))}
-            </div>
+            />
+            {search && (
+              <button
+                onClick={() => setSearch("")}
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted hover:text-secondary transition-colors"
+              >
+                <X size={13} />
+              </button>
+            )}
           </div>
         </AnimatedSection>
 
@@ -221,10 +190,10 @@ export default function ProjectArchive({ repos }: ProjectArchiveProps) {
           >
             <p className="text-secondary text-sm">No projects match that search.</p>
             <button
-              onClick={() => { setSearch(""); setActiveCategory(ALL_CATEGORY); }}
+              onClick={() => setSearch("")}
               className="mt-3 text-xs text-muted hover:text-secondary underline transition-colors"
             >
-              Clear filters
+              Clear search
             </button>
           </motion.div>
         )}
