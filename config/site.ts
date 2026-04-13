@@ -129,9 +129,9 @@ export const FEATURED_REPOS: string[] = [
   "ufc_app",
   "walkwithme-frontend",
   "trace",
-  "cine-multivariate-seq2seq-forecasting",
-  "Elo-Based-Time-Series-Forecasting",
   "Statistical-Learning-for-Data-Mining-Projects",
+  "Elo-Based-Time-Series-Forecasting",
+  "cine-multivariate-seq2seq-forecasting",
 ];
 
 // ─── Hidden repos (never shown on the site) ───────────────────────────────────
