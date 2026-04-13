@@ -18,7 +18,7 @@ export const siteConfig = {
     "https://www.linkedin.com/in/saisrijith-reddy-maramreddy-399869166",
   email: "mailto:shrey.maramreddy@gmail.com",
   avatarUrl: "/profile_pic.png",
-  siteUrl: "https://srijith-reddy.vercel.app",
+  siteUrl: "https://srijith-reddy-portfolio-main.vercel.app",
   ogImage: "https://srijith-reddy-portfolio-main.vercel.app/profile_pic.png",
 };
 

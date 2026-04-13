@@ -2,7 +2,7 @@
 
 Personal portfolio built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Auto-syncs with GitHub repos every hour via ISR.
 
-**Live:** https://srijith-reddy.vercel.app
+**Live:** https://srijith-reddy-portfolio-main.vercel.app
 
 ---
 
