@@ -122,12 +122,12 @@ export const EDUCATION = [
 // Change this list to control which projects appear as featured cards
 export const FEATURED_REPOS: string[] = [
   "Scratch-for-AI-Dev",
+  "situational-intelligence",
   "M.I.R.A",
   "mira-stylist",
   "Pulse_hackathon",
   "ufc_app",
   "walkwithme-frontend",
-  "situational-intelligence",
   "trace",
   "cine-multivariate-seq2seq-forecasting",
 ];
