@@ -133,7 +133,6 @@ export const FEATURED_REPOS: string[] = [
   "Statistical-Learning-for-Data-Mining-Projects",
   "Elo-Based-Time-Series-Forecasting",
   "cine-multivariate-seq2seq-forecasting",
-  "codestudio",
 ];
 
 // ─── Hidden repos (never shown on the site) ───────────────────────────────────
@@ -146,6 +145,7 @@ export const HIDDEN_REPOS: string[] = [
   "ai-agents-llm-projects",  // too basic
   "SQL-Mini-Projects",       // too basic
   "NEETCODE-150-SQL-50-Study-Guide",  // study guide, not a project
+  "codestudio",             // temporarily hidden; will re-add cleanly
 ];
 
 // ─── Manual overrides per repo ────────────────────────────────────────────────
@@ -176,15 +176,6 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
     category: "Applied AI Products",
     stack: ["Python", "OpenAI", "Computer Vision", "FastAPI"],
     liveUrl: undefined,
-    featured: true,
-  },
-  "codestudio": {
-    displayName: "CodeStudio",
-    description:
-      "LeetCode mastery studio — structured practice paths, pattern-based problem sets, and a focused interview-prep workspace.",
-    category: "Foundations",
-    stack: ["TypeScript", "Next.js", "React"],
-    liveUrl: "https://codestudio-bice.vercel.app/",
     featured: true,
   },
   "Pulse_hackathon": {
