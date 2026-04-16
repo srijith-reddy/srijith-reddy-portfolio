@@ -133,6 +133,7 @@ export const FEATURED_REPOS: string[] = [
   "Statistical-Learning-for-Data-Mining-Projects",
   "Elo-Based-Time-Series-Forecasting",
   "cine-multivariate-seq2seq-forecasting",
+  "codestudio",
 ];
 
 // ─── Hidden repos (never shown on the site) ───────────────────────────────────
@@ -177,13 +178,22 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
     liveUrl: undefined,
     featured: true,
   },
+  "codestudio": {
+    displayName: "CodeStudio",
+    description:
+      "LeetCode mastery studio — structured practice paths, pattern-based problem sets, and a focused interview-prep workspace.",
+    category: "Foundations",
+    stack: ["TypeScript", "Next.js", "React"],
+    liveUrl: "https://codestudio-bice.vercel.app/",
+    featured: true,
+  },
   "Pulse_hackathon": {
     displayName: "CorVas",
     description:
       "Senior-friendly cardiac recovery PWA. AI-powered medication tracking, 12-week rehab plans, symptom check-ins, and intelligent care coordination — live in production.",
     category: "Applied AI Products",
     stack: ["TypeScript", "Next.js", "React", "AI APIs"],
-    liveUrl: "https://corvas-ai.vercel.app",
+    liveUrl: "https://corvas-ai.vercel.app/",
     featured: true,
   },
   "ufc_app": {
