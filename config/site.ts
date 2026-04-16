@@ -181,7 +181,7 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
   "codestudio": {
     displayName: "CodeStudio",
     description:
-      "A calm, guided studio for coding-interview practice. Short daily sessions walk you through common problem patterns in Python and SQL — each one a drag-and-drop puzzle with step-by-step hints. Progress paints an evolving art gallery, and smart reviews keep old patterns fresh.",
+      "A pattern-first studio for coding-interview prep. One guided session a day across Python and SQL — a short lesson, a drag-and-drop puzzle, and a reflection — with progressive hints, spaced reviews, and an evolving art gallery that paints a tile for every solve.",
     category: "Foundations",
     stack: ["TypeScript", "Next.js", "Tailwind", "Zustand"],
     liveUrl: "https://codestudio-bice.vercel.app/",
