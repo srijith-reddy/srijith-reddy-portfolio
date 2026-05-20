@@ -130,6 +130,7 @@ export const FEATURED_REPOS: string[] = [
   "ufc_app",
   "walkwithme-frontend",
   "trace",
+  "Annota",
   "Statistical-Learning-for-Data-Mining-Projects",
   "Elo-Based-Time-Series-Forecasting",
   "cine-multivariate-seq2seq-forecasting",
@@ -234,6 +235,14 @@ export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
       "24/7 AI-powered supply chain manager and payment agent. Monitors inventory, surfaces disruptions, and orchestrates autonomous payment and fulfillment actions.",
     category: "AI Systems",
     stack: ["JavaScript", "AI Agents", "Payments API"],
+    featured: true,
+  },
+  "Annota": {
+    displayName: "ANNOTA",
+    description:
+      "PDF-to-code research pipeline for statistical methods. Dual-parser ingestion (PyMuPDF + Docling), GPT normalization, and ChromaDB retrieval yield 261 runnable NumPy estimators behind a unified interface. Paired with Monte Carlo infrastructure — 6,000 synthetic brain-connectivity graphs benchmarking 5 transfer-learning variants on F1, SHD, and Frobenius error.",
+    category: "Statistics & Analysis",
+    stack: ["Python", "NumPy", "ChromaDB", "Docling", "Monte Carlo"],
     featured: true,
   },
   "ai-agents-llm-projects": {
