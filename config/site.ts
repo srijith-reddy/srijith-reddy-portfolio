@@ -103,7 +103,7 @@ export const EDUCATION = [
     school: "Baruch College — Zicklin School of Business",
     degree: "MS, Statistics",
     period: "Expected May 2026",
-    detail: "GPA 3.95 · Regression, Statistical Inference, Multivariate Methods, ML, Data Mining",
+    detail: "GPA 3.96 · Regression, Statistical Inference, Multivariate Methods, ML, Data Mining",
   },
   {
     school: "Imperial College Business School",
