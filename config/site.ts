@@ -183,9 +183,9 @@ export const MANUAL_PROJECTS: _ProcessedRepo[] = [
     name: "attyr",
     displayName: "ATTYR",
     description:
-      "A solo-built AI stylist that styles the clothes you already own into daily outfits — live on TestFlight, backed by LvlUp Ventures pre-launch. Photoreal virtual try-on lets you wear full looks before buying, a per-brand sizing engine tells you the real gaps worth filling, and you shop those pieces in-app through affiliate-monetized recommendations. Styling first, shopping only when there's a gap worth closing.",
+      "A solo-built AI stylist that dresses you from the clothes you already own — a daily outfit tuned to your day, and photoreal try-on to see full looks on yourself before you commit. Shopping lives on its own, and it's the smart part: it learns your taste and your real fit over time, so when it does suggest buying something, it's a piece that actually works with your wardrobe and fits you at that brand. Live on TestFlight, backed by LvlUp Ventures pre-launch.",
     category: "Applied AI Products",
-    stack: ["React Native", "FastAPI", "OpenAI", "Computer Vision", "Affiliate Commerce"],
+    stack: ["React Native", "FastAPI", "Virtual Try-On", "Sizing Engine", "Affiliate Commerce"],
     liveUrl: "https://attyr.app",
     liveLabel: "attyr.app",
     secondaryUrl: "https://testflight.apple.com/join/NstVERzh",
