@@ -1,5 +1,6 @@
 import { fetchGitHubRepos } from "@/lib/github";
 import { processRepos } from "@/lib/repos";
+import { MANUAL_PROJECTS } from "@/config/site";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Hero from "@/components/sections/Hero";
@@ -16,7 +17,7 @@ export const revalidate = 3600;
 
 export default async function Home() {
   const rawRepos = await fetchGitHubRepos();
-  const repos = processRepos(rawRepos);
+  const repos = [...MANUAL_PROJECTS, ...processRepos(rawRepos)];
 
   return (
     <main>

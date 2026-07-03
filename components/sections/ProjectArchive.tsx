@@ -13,7 +13,7 @@ interface ProjectArchiveProps {
 function ArchiveCard({ repo }: { repo: ProcessedRepo }) {
   return (
     <motion.a
-      href={repo.githubUrl}
+      href={repo.githubUrl ?? repo.liveUrl ?? "#"}
       target="_blank"
       rel="noopener noreferrer"
       whileHover={{ y: -2 }}

@@ -34,7 +34,7 @@ export interface ProcessedRepo {
   description: string;
   category: ProjectCategory;
   stack: string[];
-  githubUrl: string;
+  githubUrl?: string;
   liveUrl?: string;
   liveLabel?: string;
   language: string | null;

@@ -39,6 +39,28 @@ export interface Hackathon {
 
 export const HACKATHONS: readonly Hackathon[] = [
   {
+    name: "FRTC",
+    placement: "1st Place",
+    event: "M-AGENTS · NYC Tech Week (a16z)",
+    venue: "Fordham Lincoln Center, NYC",
+    date: "2026",
+    summary:
+      "Autonomous fraud-ring investigator for community banks — hunting coordinated fraud that stays under every alert threshold and never trips a single-transaction rule.",
+    bullets: [
+      "Unsupervised engine surfaces the suspicious cluster, then 6 specialist agents + an adversarial Skeptic examine it concurrently",
+      "Shared Cognee memory graph lets agents read and write each other's findings",
+      "Live UI streams the verdict, lighting up the fraud graph in real time",
+      "100% precision and recall — nothing hardcoded",
+    ],
+    team: [
+      "Buddhsen Tripathi",
+      "Olena Teslia",
+      "Nolan Hu",
+      "Joy van Oranje",
+    ],
+    repoUrl: "https://github.com/srijith-reddy/FRTC",
+  },
+  {
     name: "AI Blocks",
     placement: "1st Place",
     event: "VibeForward × Lovable",
@@ -75,6 +97,17 @@ export const HACKATHONS: readonly Hackathon[] = [
 
 // ─── Research & professional experience ──────────────────────────────────────
 export const EXPERIENCE = [
+  {
+    role: "Founder",
+    org: "ATTYR",
+    location: "LvlUp Ventures portfolio · attyr.app",
+    period: "Mar 2026 – Present",
+    bullets: [
+      "Built and shipped a solo AI stylist that styles the clothes you already own into daily outfits — live on TestFlight",
+      "Photoreal virtual try-on lets users wear full looks before buying; a per-brand sizing engine tells them what's actually worth adding",
+      "Backed by LvlUp Ventures pre-launch; featured in their portfolio lineup",
+    ],
+  },
   {
     role: "Research Assistant — Prof. Zeda Li",
     org: "Research Foundation of CUNY",
@@ -122,6 +155,8 @@ export const EDUCATION = [
 // ─── Pinned / featured repos (shown in "Selected Work") ───────────────────────
 // Change this list to control which projects appear as featured cards
 export const FEATURED_REPOS: string[] = [
+  "attyr",
+  "FRTC",
   "Scratch-for-AI-Dev",
   "situational-intelligence",
   "M.I.R.A",
@@ -135,6 +170,31 @@ export const FEATURED_REPOS: string[] = [
   "Elo-Based-Time-Series-Forecasting",
   "cine-multivariate-seq2seq-forecasting",
   "codestudio",
+];
+
+// ─── Manual projects (not backed by a public GitHub repo) ─────────────────────
+// Injected into the project list alongside the auto-fetched repos. Use for
+// closed-source / solo builds that still deserve a featured card.
+import type { ProcessedRepo as _ProcessedRepo } from "@/lib/types";
+
+export const MANUAL_PROJECTS: _ProcessedRepo[] = [
+  {
+    id: -1,
+    name: "attyr",
+    displayName: "ATTYR",
+    description:
+      "A solo-built AI stylist that styles the clothes you already own into daily outfits — live on TestFlight, backed by LvlUp Ventures pre-launch. Photoreal virtual try-on lets you wear full looks before buying, and a per-brand sizing engine tells you what's actually worth adding. An AI stylist, not another shopping app.",
+    category: "Applied AI Products",
+    stack: ["React Native", "FastAPI", "OpenAI", "Computer Vision", "Postgres"],
+    liveUrl: "https://attyr.app",
+    liveLabel: "attyr.app",
+    language: null,
+    stars: 0,
+    updatedAt: "2026-03-01T00:00:00Z",
+    featured: true,
+    score: 1000,
+    size: 0,
+  },
 ];
 
 // ─── Hidden repos (never shown on the site) ───────────────────────────────────
@@ -152,6 +212,14 @@ export const HIDDEN_REPOS: string[] = [
 // ─── Manual overrides per repo ────────────────────────────────────────────────
 // Override any auto-inferred metadata for specific repos
 export const REPO_OVERRIDES: Record<string, Partial<ProcessedRepo>> = {
+  "FRTC": {
+    displayName: "FRTC",
+    description:
+      "🥇 1st place at M-AGENTS (NYC Tech Week · a16z). Autonomous fraud-ring investigator for community banks — an unsupervised engine surfaces the suspicious cluster, then 6 specialist agents plus an adversarial Skeptic examine it concurrently over a shared Cognee memory graph. A live UI streams the verdict, lighting up the fraud graph in real time. 100% precision and recall, nothing hardcoded.",
+    category: "AI Systems",
+    stack: ["Python", "Multi-Agent", "Cognee", "Graph Memory"],
+    featured: true,
+  },
   "Scratch-for-AI-Dev": {
     displayName: "AI Blocks",
     description:

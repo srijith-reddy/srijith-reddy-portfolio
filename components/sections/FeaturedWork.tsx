@@ -13,11 +13,12 @@ interface FeaturedWorkProps {
 
 function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
   const meta = CATEGORY_META[repo.category];
+  const cardHref = repo.githubUrl ?? repo.liveUrl ?? "#";
 
   return (
     <AnimatedSection delay={index * 0.08}>
       <motion.a
-        href={repo.githubUrl}
+        href={cardHref}
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ y: -4 }}
@@ -89,10 +90,12 @@ function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
 
           {/* Footer actions */}
           <div className="flex items-center gap-4">
-            <span className="inline-flex items-center gap-1.5 text-xs text-secondary">
-              <Github size={13} />
-              <span>Source</span>
-            </span>
+            {repo.githubUrl && (
+              <span className="inline-flex items-center gap-1.5 text-xs text-secondary">
+                <Github size={13} />
+                <span>Source</span>
+              </span>
+            )}
             {repo.liveUrl && (
               <button
                 onClick={(e) => {
@@ -100,7 +103,10 @@ function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
                   e.stopPropagation();
                   window.open(repo.liveUrl, "_blank", "noopener,noreferrer");
                 }}
-                className="group/live inline-flex items-center gap-1.5 text-xs text-secondary hover:text-primary transition-colors duration-200 ml-auto"
+                className={cn(
+                  "group/live inline-flex items-center gap-1.5 text-xs text-secondary hover:text-primary transition-colors duration-200",
+                  repo.githubUrl && "ml-auto"
+                )}
               >
                 <ExternalLink size={13} />
                 <span>{repo.liveLabel ?? "Live"}</span>
