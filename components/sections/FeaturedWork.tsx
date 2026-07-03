@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Github, ArrowUpRight } from "lucide-react";
+import { ExternalLink, Github, ArrowUpRight, Apple } from "lucide-react";
 import type { ProcessedRepo } from "@/lib/types";
 import { CATEGORY_META, FEATURED_REPOS } from "@/config/site";
 import { cn } from "@/lib/utils";
@@ -113,6 +113,30 @@ function FeaturedCard({ repo, index }: { repo: ProcessedRepo; index: number }) {
                 <ArrowUpRight
                   size={11}
                   className="opacity-0 group-hover/live:opacity-100 -ml-0.5 transition-opacity"
+                />
+              </button>
+            )}
+            {repo.secondaryUrl && (
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  window.open(
+                    repo.secondaryUrl,
+                    "_blank",
+                    "noopener,noreferrer"
+                  );
+                }}
+                className={cn(
+                  "group/beta inline-flex items-center gap-1.5 text-xs text-secondary hover:text-primary transition-colors duration-200",
+                  !repo.githubUrl && !repo.liveUrl && "ml-auto"
+                )}
+              >
+                <Apple size={13} />
+                <span>{repo.secondaryLabel ?? "Beta"}</span>
+                <ArrowUpRight
+                  size={11}
+                  className="opacity-0 group-hover/beta:opacity-100 -ml-0.5 transition-opacity"
                 />
               </button>
             )}
